@@ -14,7 +14,6 @@ const Logo = S.img`
 
 const MenuListWrapper = S.div`
     margin-left:auto;
-    margin:right:100px;
 `
 
 const MenuList = S.ul`
