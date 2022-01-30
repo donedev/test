@@ -2,17 +2,17 @@ import { NavLink } from "react-router-dom";
 import { Container, LogoWrapper, Logo, MenuListWrapper, MenuList, Menu } from "./style"
 
 
-function Header(){    
+function Header() {
     const menuList = [
-        {'path':'/', 'title':'Home'}
-        , {'path':'/about', 'title':'About'}
+        { 'path': '/', 'title': 'Home' }
+        , { 'path': '/about', 'title': 'About' }
     ];
-    
+
     return (
         <Container>
 
             <LogoWrapper>
-                <Logo/>
+                <Logo />
             </LogoWrapper>
 
             <MenuListWrapper>
