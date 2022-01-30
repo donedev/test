@@ -14,6 +14,9 @@ function Header() {
             <LogoWrapper>
                 <Logo />
             </LogoWrapper>
+            <div>
+                TEST
+            </div>
 
             <MenuListWrapper>
                 <MenuList>
